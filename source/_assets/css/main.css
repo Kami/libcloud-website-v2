@@ -9,6 +9,13 @@ body {
 }
 
 /* Navigation bar styles */
+.navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-logo {
+    margin-right: 5px;
+}
 
 /* Add top border, remove bottom one */
 nav.navbar {
