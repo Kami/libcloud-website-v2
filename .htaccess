@@ -1,0 +1,11 @@
+# Redirect from old to new locations
+
+Redirect 301 /upgrade-notes.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
+Redirect 301 /upgrade-notes-0-6.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-6
+Redirect 301 /upgrade-notes-0-7.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-7
+Redirect 301 /upgrade-notes-0-8.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-8
+
+Redirect 301 /supported_providers.html  https://libcloud.readthedocs.org/en/latest/supported_providers.html
+Redirect 301 /driver-features.html https://libcloud.readthedocs.org/en/latest/supported_providers.html
+
+Redirect 301 /testing.html https://libcloud.readthedocs.org/en/latest/testing.html
