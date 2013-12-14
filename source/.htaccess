@@ -1,5 +1,7 @@
 # Redirect from old to new locations
 
+Redirect 201 /getting_started.html /getting-started.html
+
 Redirect 301 /upgrade-notes.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
 Redirect 301 /upgrade-notes-0-6.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-6
 Redirect 301 /upgrade-notes-0-7.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-7
