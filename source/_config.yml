@@ -22,7 +22,7 @@ keywords:
 lsi:         false
 markdown:    redcarpet
 pygments:    true
-permalink: date
+permalink: blog/:year/:month/:day/:title.html
 
 tag_page_layout: tag_page
 tag_page_dir: tags
