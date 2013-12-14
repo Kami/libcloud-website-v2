@@ -8,10 +8,7 @@ title: Who's Using Libcloud?
 This page includes a non-exhaustive list of projects and companies who are
 using Libcloud.
 
-If you or someone you know is using libcloud but is not listed on this page,
-please let us know.
-
-### Projects
+## Projects
 
 **Name:** mist.io  
 **Website:** [https://github.com/mistio/mist.io](https://github.com/mistio/mist.io)  
@@ -87,6 +84,15 @@ please let us know.
 
 ## Companies
 
+**Name:** Rackspace  
+**Website:** [http://www.rackspace.com/](http://www.rackspace.com/)
+
+**Name:** SixSq  
+**Website:** [http://sixsq.com/](http://sixsq.com/)
+
+**Name:** CloudControl  
+**Website:** [https://www.cloudcontrol.com/](https://www.cloudcontrol.com/)
+
 **Name:** mist.io   
 **Website:** [https://mist.io](https://mist.io)  
 
@@ -107,3 +113,11 @@ please let us know.
 
 **Name:** Salt Stack  
 **Website:** [http://saltstack.com/](http://saltstack.com/)  
+
+## Not Listed?
+
+If you or someone you know is using Libcloud but is not listed on this page,
+please [let us know][2].
+
+[1]: {{ page.url }}
+[2]: https://libcloud.readthedocs.org/en/latest/developer_information.html#mailing-lists
