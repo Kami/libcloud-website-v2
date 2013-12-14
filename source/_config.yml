@@ -1,13 +1,12 @@
+source: .
 destination: ./_site
-lsi:         false
-pygments:    true
-markdown:    redcarpet
-permalink: date
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_dir:    images/latex
-  png_url:    /images/latex
+plugins: ./_plugins
+layouts: ./_layouts
+include: ['.htaccess']
+exclude: ['README.md', 'sitemap.xml']
+
+url: https://libcloud.apache.org
+domain: libcloud.apache.org
 title: Apache Libcloud Python Library
 headline: Standard Python library that abstracts away differences among multiple cloud provider APIs
 description: Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs
@@ -19,9 +18,11 @@ keywords:
   - cloud computing
   - openstack
   - amazon ec2
-url: https://libcloud.apache.org
-domain: libcloud.apache.org
-exclude: ['README.MD', 'sitemap.xml']
+
+lsi:         false
+markdown:    redcarpet
+pygments:    true
+permalink: date
 
 tag_page_layout: tag_page
 tag_page_dir: tags
