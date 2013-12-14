@@ -11,10 +11,14 @@ body {
 /* Navigation bar styles */
 .navbar-brand {
     font-weight: 600;
+    padding-top: 18px !important;
+    padding-bottom: 0px !important;
 }
 
 .navbar-logo {
-    margin-right: 5px;
+    padding-top: 1px !important;
+    margin-top: -8px;
+    margin-right: 10px;
 }
 
 /* Add top border, remove bottom one */
@@ -25,12 +29,12 @@ nav.navbar {
 
 /* Increase default navbar height */
 .navbar-fixed-top {
-    height: 70px;
+    height: 73px;
 }
 
 .navbar-nav > li > a {
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
+    padding-top: 21px !important;
+    padding-bottom: 21px !important;
     font-size: 1.1em;
 }
 
