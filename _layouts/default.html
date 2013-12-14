@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+
+    {% if page.tags %}
+      <meta name="keywords" content="{{ page.tags|join:','}}" />
+    {% else %}
+      <meta name="keywords" content="{{ site.keywords|join:','}}" />
+      {% endif %}
+
+    {% if page.title %}
+      <title>{{ page.title }} | Apache Libcloud Python library</title>
+    {% else %}
+      <title>{{ site.title }} | Apache Libcloud Python library</title>
+    {% endif %}
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+
+    {% css_asset_tag global %}
+      - /_assets/css/extern/bootstrap.css
+      - /_assets/css/main.css
+    {% endcss_asset_tag %}
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="/images/libcloud_logo.png" /> Apache Libcloud</a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Quick Start</a></li>
+            <li><a href="https://libcloud.readthedocs.org/en/latest/">Documentation</a></li>
+            <li><a href="">Downloads</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+      <div class="row section">
+        <div class="col-lg-12">
+          {{ content }}
+        </div>
+      </div>
+
+      <hr />
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            {% include footer.html %}
+          </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    {% javascript_asset_tag global %}
+      - _assets/js/extern/jquery-2.0.3.js
+      - _assets/js/extern/bootstrap.js
+    {% endjavascript_asset_tag %}
+  </body>
+</html>

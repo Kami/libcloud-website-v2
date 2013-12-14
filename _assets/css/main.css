@@ -1,0 +1,72 @@
+html, body {
+    height:100%;
+}
+
+body {
+  padding-top: 80px;
+}
+
+/* Navigation bar styles */
+
+/* Add top border, remove bottom one */
+nav.navbar {
+    border-top: #0c60ff 10px solid;
+    border-bottom: none;
+}
+
+/* Increase default navbar height */
+.navbar-fixed-top {
+    height: 70px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 1.1em;
+}
+
+/* Custom background color for the navbar */
+.navbar-inverse {
+    background-color: #eeeeee;
+}
+
+/* Custom hover background */
+ul.nav.navbar-nav li a {
+    color: #818181;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    background-color: #3ca8ff;
+}
+
+.navbar-brand {
+    color: #000000 !important;
+}
+
+/* Custom color for responsive button thingy */
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle {
+    background-color: #818181;
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #3ca8ff;
+    border: none;
+}
+
+/* Custom style for responsive menu bar */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #eeeeee;
+    border-top: #0c60ff solid;
+}
+
+/* Other */
+
+footer {
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+div.footer-text {
+    margin-top: 10px;
+}
