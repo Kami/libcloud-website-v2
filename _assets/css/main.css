@@ -57,7 +57,7 @@ ul.nav.navbar-nav li a {
 /* Custom style for responsive menu bar */
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     background-color: #eeeeee;
-    border-top: #0c60ff solid;
+    /*border-top: #0c60ff solid;*/
 }
 
 /* Other */
