@@ -75,6 +75,10 @@ ul.nav.navbar-nav li a {
 
 /* Other */
 
+div.page-content {
+    font-size: 13pt;
+}
+
 img.center {
     margin: 0 auto;
 }
