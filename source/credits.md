@@ -5,6 +5,16 @@ title: Credits
 
 # {{ page.title }}
 
+We would like to thank each and every person who has contributed to Libcloud in
+any form (be it a code change, documentation change, bug fix, typo fix,
+feature suggestion or similar).
+
+Sadly there are to many people to list all of them on this page, so this page
+just lists Libcloud PMC members and committers.
+
+A list of all the people who have contributed can be found on our [JIRA issue
+tracker][2].
+
 ## PMC Members
 
 * Eric Woods (woodser [at] apache [dot] org)
@@ -38,7 +48,5 @@ title: Credits
 * Ivan Meredith (committer)
 * Jed Smith (committer, PMC member)
 
-## Contributors
-
-A list of all the contributors can be found on the [Libcloud
-JIRA](https://issues.apache.org/jira/secure/ConfigureReport.jspa?atl_token=888af46eb9686dcb98b6e5c7489395dfb195f02c&versionId=-1&issueStatus=closed&selectedProjectId=12311030&reportKey=com.sourcelabs.jira.plugin.report.contributions%3Acontributionreport&Next=Next).
+[1]: {{ page.url }}
+[2]: https://issues.apache.org/jira/secure/ConfigureReport.jspa?atl_token=888af46eb9686dcb98b6e5c7489395dfb195f02c&versionId=-1&issueStatus=closed&selectedProjectId=12311030&reportKey=com.sourcelabs.jira.plugin.report.contributions%3Acontributionreport&Next=Next).
