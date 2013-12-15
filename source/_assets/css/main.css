@@ -3,9 +3,12 @@ html, body {
 }
 
 body {
-    padding-top: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.6em;
+}
+
+.main-container {
+    padding-top: 80px;
 }
 
 /* Navigation bar styles */
