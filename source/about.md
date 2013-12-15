@@ -73,11 +73,12 @@ listed bellow:
 
 ## <a name="important-milestones-and-dates"></a> Important Milestones and Dates
 
-* Summer 2009 - Libcloud development starts at Cloudkick.
-* July 23, 2009 - [First open-source version of Libcloud is released by folks at Cloudkick][16]
-* November 11th, 2009 - [Project enters Apache Incubator][2].
-* March 22nd, 2011 - [Website has been ported to Apache CMS][15].
-* May 10th, 2010 - [First Apache release (0.3.1) is out][14]
+* Summer 2009 - Libcloud development starts at Cloudkick
+* July 23, 2009 - [First open-source version of Libcloud is released by folks
+at Cloudkick][16]
+* November 11th, 2009 - [Project enters Apache Incubator][2]
+* March 22nd, 2011 - [Website has been ported to Apache CMS][15]
+* February 2nd, 2010 - First Apache release (0.2.0) is out
 * May 10th, 2011 - [Community voting for graduation to a Top Level Project has started][17]
 * May 19th, 2011 - [Project graduates to a top level project][3]
 * May 19th, 2011 - [Project gets a chair - Tomaz Muraus][3]
@@ -85,10 +86,13 @@ listed bellow:
   support for object storage and load balancer API is released][5]
 * November 5th, 2011 - [Libcloud 0.6.0 which includes support for a new DNS
   API is released][6]
-* April 2012 - Libcloud has received one slot at GSoC 2012. Student Ilgiz
-  Islamgulov worked on "Libcloud REST interface" project
-* July 2013 - Worked has started on a new and improved documentation which is
-  now hosted on ReadTheDocs.
+* April 2012 - Libcloud participates in GSoC 2012. Student Ilgiz Islamgulov
+  works on "Libcloud REST interface" project.
+* August 30th, 2012 - [Libcloud REST GSoC 2012 project has been successfully
+  completed][18]
+* June 12th, 2011 - [Code repository has moved from SVN to git][19]
+* July 2013 - Work has started on a new and improved documentation which is
+  now hosted on ReadTheDocs
 
 [1]: {{ page.url }}
 [2]: http://incubator.apache.org/projects/libcloud.html
@@ -107,3 +111,5 @@ listed bellow:
 [15]: http://mail-archives.apache.org/mod_mbox/incubator-libcloud/201103.mbox/%3CAANLkTi=aYQQfcZRJW0yz4Fhm8WeHSzDFbGM5tdsOz4sd@mail.gmail.com%3E
 [16]: http://web.archive.org/web/20120517182502/https://www.cloudkick.com/blog/2009/jul/23/libcloud-announced/
 [17]: http://mail-archives.apache.org/mod_mbox/incubator-libcloud/201105.mbox/%3CBANLkTimouwpSUkw-BVPV_KnpbfFgU6yqeQ@mail.gmail.com%3E
+[18]: http://google-opensource.blogspot.com/2012/08/8th-year-of-google-summer-of-code-draws.html
+[19]: http://mail-archives.apache.org/mod_mbox/libcloud-dev/201306.mbox/%3CCAJMHEmLUxAri0Pkw8-sHHb5tF2tH-qxjU7GC1zwVaNbFT%3DrUMg%40mail.gmail.com%3E
