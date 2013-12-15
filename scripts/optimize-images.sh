@@ -15,5 +15,5 @@
 # limitations under the License.
 #
 
-find images/ -name *.jpg -print0 | xargs -n 1 -P 4 -0 jpegoptim --strip-all -m80
-find images/ -name *.png -print0 | xargs -n 1 -P 4 -0 optipng -o7
+find source/images/ -name *.jpg -print0 | xargs -n 1 -P 4 -0 jpegoptim --strip-all -m80
+find source/images/ -name *.png -print0 | xargs -n 1 -P 4 -0 optipng -o7
