@@ -76,6 +76,19 @@ ul.nav.navbar-nav li a {
     /*border-top: #0c60ff solid;*/
 }
 
+/* Homepage */
+h2.tagline {
+    font-size: 1.5em;
+}
+
+div.row-2 {
+    margin-top: 20px;
+}
+
+div.row-3, div.row-4 {
+    margin-top: 10px;
+}
+
 /* Other */
 
 div.page-content {
