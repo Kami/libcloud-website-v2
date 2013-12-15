@@ -79,6 +79,11 @@ div.page-content {
     font-size: 13pt;
 }
 
+img.inline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 img.center {
     margin: 0 auto;
 }

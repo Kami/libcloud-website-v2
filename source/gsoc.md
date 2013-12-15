@@ -8,7 +8,7 @@ title: Google Summer of Code
 Google Summer of Code is a program where Google sponsors students from around
 the world to spend their summer working on open-source projects. Student is
 paid 5000$ if they successfully complete all of their evaluations. More
-information about the program can be found on the [project website][5].
+information about the program can be found on the [project website][2].
 
 ## Currently active Google Summer of Code Program
 
