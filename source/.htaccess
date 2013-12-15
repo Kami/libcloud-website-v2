@@ -4,7 +4,11 @@ Header set Cache-Control "max-age=2592000"
 </FilesMatch>
 
 # Redirect from old to new locations
-Redirect 201 /getting_started.html /getting-started.html
+Redirect 301 /getting_started.html /getting-started.html
+Redirect 301 /devinfo.html https://libcloud.readthedocs.org/en/latest/developer_information.html#developer-information
+Redirect 301 /docstring-conventions.html https://libcloud.readthedocs.org/en/latest/development.html#docstring-conventions
+
+Redirect 301 /europython-libcloud-sprint.html http://mail-archives.apache.org/mod_mbox/libcloud-users/201106.mbox/%3CBANLkTiniHVi+EYpo6iBYvA-BxwPkZmfSig@mail.gmail.com%3E
 
 Redirect 301 /upgrade-notes.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
 Redirect 301 /upgrade-notes-0-6.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-6
