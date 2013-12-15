@@ -5,7 +5,7 @@ title: Getting Started
 
 # {{ page.title }}
 
-This page contains quick instructions on how to get up and running with
+This page contains short instructions on how to get up and running with
 Libcloud in just a couple of minutes.
 
 ## Installation
