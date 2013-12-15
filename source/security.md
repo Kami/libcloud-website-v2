@@ -5,9 +5,9 @@ title: Security
 
 # {{ page.title }}
 
-## Security Vulnerabilities
+## <a name="security-vulnerabilities"></a> Security Vulnerabilities
 
-### [CVE-2012-3446] Possible SSL MITM due to invalid regular expression used to validate the target server hostname
+### <a name="CVE-2012-3446"></a> [CVE-2012-3446] Possible SSL MITM due to invalid regular expression used to validate the target server hostname
 
 **Severity**: Medium  
 **Affected Versions**: Apache Libcloud 0.4.2 to 0.11.1 (version prior to 0.4.2
@@ -32,7 +32,7 @@ upgrade to version 0.11.1 or higher.
 This issue was discovered by researchers from the University of Texas at Austin
 (Martin Georgiev, Suman Jana and Vitaly Shmatikov).
 
-### [CVE-2010-4340] SSL MITM vulnerability
+### <a name="CVE-2010-4340"></a> [CVE-2010-4340] SSL MITM vulnerability
 
 **Severity**: Medium  
 **Affected versions**: All the versions prior to **0.4.2**  
@@ -48,15 +48,36 @@ This vulnerability has been fixed in the version 0.4.2. You are strongly
 encouraged to upgrade to this version and set
 `libcloud.security.VERIFY_SSL_CERT` variable to `True`.
 
-## Reporting a Vulnerability
+## <a name="reporting-a-vulnerability"></a> Reporting a Vulnerability
 
-For information on how to report a vulnerability, please see [Reporting a
-vulnerability][2] documentation page.
+<div class="alert alert-info">Please do <strong>not</strong> report security
+issues using our public JIRA instance. Use the private mailing list
+described bellow.</div>
 
-## Errors and Omissions
+If you believe you found a security issue or a vulnerability, please send a
+description of it to our private mailing list at
+[security@libcloud.apache.org][3].
+
+You are also encouraged to encrypt this email using PGP. Keys of our developers
+can be found at [https://www.apache.org/dist/libcloud/KEYS][4].
+
+Once you've submitted an issue, you should receive an acknowledgment from one
+our of team members in 48 hours or less. If further action is necessary, you
+may receive additional follow-up emails.
+
+## <a name="how-are-vulnerabilities-handled"></a> How are vulnerabilities handled?
+
+We follow a standard Apache Software Foundation vulnerability handling process
+which is described at
+[http://www.apache.org/security/committers.html#vulnerability-handling][5].
+
+## <a name="errors-and-omissions"></a> Errors and Omissions
 
 Please report any errors or omissions to
 <a href="mailto:security@libcloud.apache.org">security@libcloud.apache.org</a>.
 
 [1]: {{ page.url }}
 [2]: https://libcloud.readthedocs.org/en/latest/security.html#reporting-a-vulnerability
+[3]: mailto:security@libcloud.apache.org
+[4]: https://www.apache.org/dist/libcloud/KEYS
+[5]: http://www.apache.org/security/committers.html#vulnerability-handling
