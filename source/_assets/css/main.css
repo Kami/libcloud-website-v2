@@ -88,6 +88,21 @@ img.center {
     margin: 0 auto;
 }
 
+/* Blog styles */
+div.post h2 {
+    padding-bottom: 10px;
+}
+
+div.post-meta {
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) {
+    div.post-tags p {
+        float: right;
+    }
+}
+
 footer {
     margin: 20px 0;
     font-size: 0.9em;
