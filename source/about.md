@@ -22,7 +22,7 @@ Resource you can manage with Libcloud are divided in the following categories:
 For more information about the features and supported providers, please refer
 to the [documentation][9].
 
-## History
+## <a name="history"></a> History
 
 Libcloud was originally developed and open-source in 2009 by folks at
 [Cloudkick][4]. It was developed to solve a problem of talking to multiple
@@ -34,7 +34,7 @@ the project graduated from the incubator to a top level project.
 For a full timeline of the events and other important dates, please see the
 "Important Milestones and Dates" section bellow.
 
-## Supported Python Versions
+## <a name="supported-python-versions"></a> Supported Python Versions
 
 Libcloud supports the following Python version:
 
@@ -46,7 +46,7 @@ Libcloud supports the following Python version:
 
 Support for Python 2.4 has been dropped in **Libcloud 0.4.0**.
 
-## Release Schedule
+## <a name="release-schedule"></a> Release Schedule
 
 We don't follow a regular releases schedule as you might know it from other
 projects such as Ubuntu.
@@ -61,7 +61,7 @@ to prepare and get the release out as soon as possible.
 3. Security fix release - We prepare and get the release out as soon as
 possible.
 
-## Similar Libraries in Other Languages
+## <a name="similar-libs-other-langs"></a> Similar Libraries in Other Languages
 
 As noted above, Libcloud is a Python library. If you are looking for a similar
 library for a different language, you should look at some of the libraries
@@ -71,7 +71,7 @@ listed bellow:
 * Ruby - [Apache Deltacloud][13], [Fog][11]
 * Node.js - [pkgcloud][12]
 
-## Important Milestones and Dates
+## <a name="important-milestones-and-dates"></a> Important Milestones and Dates
 
 * Summer 2009 - Libcloud development starts at Cloudkick.
 * July 23, 2009 - [First open-source version of Libcloud is released by folks at Cloudkick][16]
