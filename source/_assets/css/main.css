@@ -103,6 +103,13 @@ div.post-meta {
     }
 }
 
+/* Misc */
+code {
+    font-family: 'Inconsolata', monospace;
+    font-size: 11pt !important;
+}
+
+/* Footer */
 footer {
     margin: 20px 0;
     font-size: 0.9em;
