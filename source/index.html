@@ -76,10 +76,13 @@ from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
 cls = get_driver(Provider.RACKSPACE)
-driver = cls('my username', 'my api key')
+driver = cls('username', 'api key', region='iad')
 
-size = driver.list_sizes()
-image = driver.list_images()
+sizes = driver.list_sizes()
+images = driver.list_images()
+
+size = [s for s in sizes if s.id == 'performance1-1'][0]
+image = [i for i in images if 'Ubuntu 12.04' in i.name][0]
 
 node = driver.create_node(name='libcloud', size=size, image=image)
 print(node)
@@ -93,11 +96,11 @@ print(node)
 from libcloud.dns.types import Provider, RecordType
 from libcloud.dns.providers import get_driver
 
-Zerigo = get_driver(Provider.ZERIGO)
-driver = Zerigo('email', 'key')
+cls = get_driver(Provider.ZERIGO)
+driver = cls('email', 'api key')
 
 zones = driver.list_zones()
-zone = [zone for zone in zones if zone.domain === 'mydomain.com']
+zone = [zone for zone in zones if zone.domain == 'mydomain.com'][0]
 
 record = zone.create_record(name='www', type=RecordType.A, data='127.0.0.1')
 print(record)
