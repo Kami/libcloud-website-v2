@@ -1,5 +1,9 @@
-# Redirect from old to new locations
+# Long future expiration for static assets
+<FilesMatch "\.(css|js|png|jpg)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
 
+# Redirect from old to new locations
 Redirect 201 /getting_started.html /getting-started.html
 
 Redirect 301 /upgrade-notes.html https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
