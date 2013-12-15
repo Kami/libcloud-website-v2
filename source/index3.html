@@ -30,9 +30,12 @@ title: Apache Libcloud is a standard Python library that abstracts away differen
         </div>
 
         <div class="col-md-4">
-          <h3>Latest Blog Post</h3>
-          {% assign post = site.posts.first %}
-          <p><a href="{{ post.url }}">{{ post.title }}</a>
+          <h3>Latest Blog Posts</h3>
+          {% for post in site.posts limit:3 %}
+            {% unless post.exclude_from_index %}
+              <p><a href="{{ post.url }}">{{ post.title }}</a>
+            {% endunless %}
+          {% endfor %}
         </div>
       </div>
     </div>
