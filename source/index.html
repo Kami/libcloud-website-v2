@@ -20,7 +20,7 @@ title: Apache Libcloud is a standard Python library that abstracts away differen
           many others...</a>
     </div>
 
-    <div style="margin-top: 30px;">
+    <div style="margin-top: 20px;">
       <div class="row section">
         <div class="col-md-4">
           <h3>Features</h3>
@@ -34,11 +34,14 @@ title: Apache Libcloud is a standard Python library that abstracts away differen
             <a href="https://libcloud.readthedocs.org/en/latest/storage/index.html">Storage</a>,
             <a href="https://libcloud.readthedocs.org/en/latest/loadbalancer/index.html">Load Balancers</a>,
             <a href="https://libcloud.readthedocs.org/en/latest/dns/index.html">DNS</a></li>
+            <li>Supports <a href="/about.html#supported-python-versions">Python 2.5, Python 2.6, Python 2.7, PyPy
+              and Python 3</a></li>
           </ul>
         </div>
 
         <div class="col-md-4">
           <h3>Installation</h3>
+          <p>Latest stable version: 0.13.2</p>
           <p><code>pip install apache-libcloud</code></p>
           <p>Or <a href="downloads.html">download and install it</a> manually from our servers.</p>
         </div>
@@ -46,43 +49,26 @@ title: Apache Libcloud is a standard Python library that abstracts away differen
         <div class="col-md-4">
           <h3>Get in Touch, Follow Us</h3>
           <ul>
+            <li>dev@libcloud.apache.org</li>
+            <li>users@libcloud.apache.org</li>
+            <li>#libcloud on Freenode</li>
+          </ul>
+
+          <ul>
             <li><a href="https://github.com/apache/libcloud" target="_blank">Libcloud on Github</a></li>
             <li><a href="https://plus.google.com/100590055818889164025/posts" target="_blank">Apache Libcloud on Google+</a></li>
             <li><a href="https://twitter.com/libcloud" target="_blank">libcloud on Twitter</a></li>
             <li><a href="https://www.ohloh.net/p/libcloud/" target="_blank">libcloud on Ohloh</a></li>
           </ul>
-
-          <ul>
-            <li>dev@libcloud.apache.org</li>
-            <li>users@libcloud.apache.org</li>
-          </ul>
         </div>
       </div>
     </div>
 
-    <div style="margin-top: 30px;">
+    <div>
       <div class="row section">
         <div class="col-md-6">
-          <h3>Example 1 - List all nodes</h3>
+          <h3>Example 1 - Create a node</h3>
           {% highlight python %}
-from pprint import pprint
-
-from libcloud.compute.types import Provider
-from libcloud.compute.providers import get_driver
-
-cls = get_driver(Provider.EXOSCALE)
-driver = cls('api key', 'api secret key')
-
-pprint(driver.list_sizes())
-pprint(driver.list_nodes())
-{% endhighlight %}
-        </div>
-
-        <div class="col-md-6">
-          <h3>Example 2 - Create a node</h3>
-          {% highlight python %}
-from pprint import pprint
-
 from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
@@ -93,8 +79,27 @@ size = driver.list_sizes()
 image = driver.list_images()
 
 node = driver.create_node(name='libcloud', size=size, image=image)
-pprint(node)
+print(node)
 {% endhighlight %}
+          <p>For more compute examples, see <a href="https://libcloud.readthedocs.org/en/latest/compute/examples.html">documentation</a>.</p>
+        </div>
+
+        <div class="col-md-6">
+          <h3>Example 2 - Create DNS record</h3>
+{% highlight python %}
+from libcloud.dns.types import Provider, RecordType
+from libcloud.dns.providers import get_driver
+
+Zerigo = get_driver(Provider.ZERIGO)
+driver = Zerigo('email', 'key')
+
+zones = driver.list_zones()
+zone = [zone for zone in zones if zone.domain === 'mydomain.com']
+
+record = zone.create_record(name='www', type=RecordType.A, data='127.0.0.1')
+print(record)
+{% endhighlight %}
+        <p>For more DNS examples, see <a href="https://libcloud.readthedocs.org/en/latest/dns/examples.html">documentation</a>.</p>
         </div>
       </div>
     </div>
