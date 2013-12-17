@@ -8,36 +8,45 @@ title: Apache Libcloud is a standard Python library that abstracts away differen
       <h1>One Interface To Rule Them All</h1>
       <h2 class="tagline">Apache Libcloud is Python library that abstracts away differences among multiple cloud provider APIs. </h2>
 
-      <p>It supports more than 30 providers such as</p>
+      <p>Supports <a href="https://libcloud.readthedocs.org/en/latest/supported_providers.html" target="_blank">more than 30</a> providers such as</p>
 
       <div class="provider-logos">
-        <p><a href="https://libcloud.readthedocs.org/en/latest/compute/drivers/ec2.html" target="_blank">
-          <img src="/images/provider_logos/aws.png" /></a>
+        <p>
           <a href="https://libcloud.readthedocs.org/en/latest/compute/drivers/rackspace.html" target="_blank">
-          <img src="/images/provider_logos/rackspace.jpg" /></a>
-        <a href="https://libcloud.readthedocs.org/en/latest/compute/drivers/cloudstack.html" target="_blank">
-          <img src="/images/provider_logos/cloudstack.png" /></a>
+            <img src="/images/provider_logos/rackspace.jpg" class="provider-logo" /></a>
+          <a href="https://libcloud.readthedocs.org/en/latest/compute/drivers/ec2.html" target="_blank">
+            <img src="/images/provider_logos/aws.png" class="provider-logo" /></a>
+          <a href="https://libcloud.readthedocs.org/en/latest/compute/drivers/cloudstack.html" target="_blank">
+          <img src="/images/provider_logos/cloudstack.png" class="provider-logo" /></a>
         </p>
         </div>
-        <p>and <a href="https://libcloud.readthedocs.org/en/latest/supported_providers.html" target="_blank">many others...</a>
     </div>
 
     <div class="row section row-2">
-      <div class="col-md-8">
+      <div class="col-md-6">
         <h3>Installation</h3>
         <p>Latest stable version: <a href="https://crate.io/packages/apache-libcloud/" target="_blank">0.13.2</a></p>
         <p><code>pip install apache-libcloud</code></p>
         <p>Or <a href="downloads.html">download it from our servers</a> and install it manually.</p>
       </div>
 
-      <div class="col-md-4">
-        <h3>Latest Blog Posts</h3>
-        {% for post in site.posts limit:3 %}
-          {% unless post.exclude_from_index %}
-            <p><a href="{{ post.url }}">{{ post.title }}</a>
-          {% endunless %}
-        {% endfor %}
+      <div class="col-md-6">
+        <h3>Features</h3>
+        <ul>
+          <li>Avoid vendor lock-in</li>
+          <li>Use the same API to talk to many different providers</li>
+          <li>More than <a href="https://libcloud.readthedocs.org/en/latest/supported_providers.html">
+          30 supported providers</a> total</li>
+          <li>Four main APIs:
+          <a href="https://libcloud.readthedocs.org/en/latest/compute/index.html">Compute</a>,
+          <a href="https://libcloud.readthedocs.org/en/latest/storage/index.html">Storage</a>,
+          <a href="https://libcloud.readthedocs.org/en/latest/loadbalancer/index.html">Load Balancers</a>,
+          <a href="https://libcloud.readthedocs.org/en/latest/dns/index.html">DNS</a></li>
+          <li>Supports <a href="/about.html#supported-python-versions">Python 2.5, Python 2.6, Python 2.7, PyPy
+            and Python 3</a></li>
+        </ul>
       </div>
+
     </div>
 
     <div class="row section row-3">
@@ -82,40 +91,44 @@ print(record)
     </div>
 
     <div class="row section row-4">
+
       <div class="col-md-4">
-        <h3>Features</h3>
-        <ul>
-          <li>Avoid vendor lock-in</li>
-          <li>Use the same API to talk to many different providers</li>
-          <li>More than <a href="https://libcloud.readthedocs.org/en/latest/supported_providers.html">
-          30 supported providers</a> total</li>
-          <li>Four main APIs:
-          <a href="https://libcloud.readthedocs.org/en/latest/compute/index.html">Compute</a>,
-          <a href="https://libcloud.readthedocs.org/en/latest/storage/index.html">Storage</a>,
-          <a href="https://libcloud.readthedocs.org/en/latest/loadbalancer/index.html">Load Balancers</a>,
-          <a href="https://libcloud.readthedocs.org/en/latest/dns/index.html">DNS</a></li>
-          <li>Supports <a href="/about.html#supported-python-versions">Python 2.5, Python 2.6, Python 2.7, PyPy
-            and Python 3</a></li>
-        </ul>
+        <h3>Latest Blog Posts</h3>
+        {% for post in site.posts limit:3 %}
+          {% unless post.exclude_from_index %}
+            <p><a href="{{ post.url }}">{{ post.title }}</a>
+          {% endunless %}
+        {% endfor %}
       </div>
 
       <div class="col-md-4">
+        <h3>Whois using Libcloud?</h3>
+
+          <div class="whos-using text-center">
+            <a href="http://www.saltstack.com/community/" alt="SaltStack" target="_blank"><img src="/images/company_logos/saltstack.png" class="logo" /></a>
+            <a href="https://www.cloudcontrol.com/" alt="CloudControl" target="_blank"><img src="/images/company_logos/cloudcontrol.png" class="logo" /></a>
+            <a href="https://mist.io" alt="mist.io" target="_blank"><img src="/images/company_logos/mistio.png" class="logo" /></a>
+          </div>
+
+          <p>See <a href="/whois-using.html">more projects and companies</a> using Libcloud.</p>
+        </div>
+
+      <!--<div class="col-md-4">
         <h3>Need Help?</h3>
-
-        <ul>
-          <li><a href="mailto:users-subscribe@libcloud.apache.org">users@libcloud.apache.org</a></li>
-          <li><a href="http://webchat.freenode.net?channels=libcloud&uio=d4">#libcloud on Freenode</a></li>
-        </ul>
-      </div>
+      </div>-->
 
       <div class="col-md-4">
         <h3>Get in Touch, Follow Us</h3>
-        <ul>
-          <li><a href="https://github.com/apache/libcloud" target="_blank">Libcloud on Github</a></li>
-          <li><a href="https://plus.google.com/100590055818889164025" rel="publisher" target="_blank">Apache Libcloud on Google+</a></li>
-          <li><a href="https://twitter.com/libcloud" target="_blank">libcloud on Twitter</a></li>
-          <li><a href="https://www.ohloh.net/p/libcloud/" target="_blank">libcloud on Ohloh</a></li>
-        </ul>
+
+        <p><a href="mailto:users-subscribe@libcloud.apache.org">users@libcloud.apache.org</a><br />
+        <a href="http://webchat.freenode.net?channels=libcloud&uio=d4">#libcloud on Freenode</a></p>
+
+        <div style="margin-top: 20px">
+          <a href="https://github.com/apache/libcloud" target="_blank"><img src="/images/social_media/github.jpg" alt="Libcloud on Github" class="social-icon" /></a>
+          <a href="https://plus.google.com/100590055818889164025" target="_blank"><img src="/images/social_media/google+.png" alt="Libcloud on Google+" class="social-icon" /></a>
+          <a href="https://twitter.com/libcloud" target="_blank"><img src="/images/social_media/twitter.png" alt="Libcloud on Twitter" class="social-icon" /></a>
+          <a href="https://www.ohloh.net/p/libcloud/" target="_blank"><img src="/images/social_media/ohloh.png" alt="Libcloud on Ohloh" class="social-icon" /></a>
+        </div>
       </div>
     </div>
   </div>
