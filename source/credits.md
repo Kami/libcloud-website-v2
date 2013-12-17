@@ -5,15 +5,14 @@ title: Credits
 
 # {{ page.title }}
 
+This page lists Libcloud PMC members, committers and all the people who have
+contributed to Libcloud.
+
+## Thanks
+
 We would like to thank each and every person who has contributed to Libcloud in
 any form (be it a code change, documentation change, bug fix, typo fix,
 feature suggestion or similar).
-
-Sadly there are to many people to list all of them on this page, so this page
-just lists Libcloud PMC members and committers.
-
-A list of all the people who have contributed can be found on our [JIRA issue
-tracker][2].
 
 ## PMC Members
 
@@ -47,6 +46,26 @@ tracker][2].
 * Dan Di Spaltro (committer)
 * Ivan Meredith (committer)
 * Jed Smith (committer, PMC member)
+
+## Contributors
+
+This section lists all the people who have contributed or a documentation
+change to Libcloud. It's automatically generated from the CHANGES file so
+it might not be 100% accurate. If you have contributed, but your name is
+missing from this list, we would like to apologize and thank you again for
+your contribution!
+
+All the names are sorted in an alphabetical order based on the contributor's
+last name.
+
+{% capture content %}
+{% include contributors.md %}
+{% endcapture %}
+
+{{ content | markdownify }}
+
+If there is no JIRA ticket number or Github pull request number next to
+someone's name, this simply means that a changelog line didn't reference it.
 
 [1]: {{ page.url }}
 [2]: https://issues.apache.org/jira/secure/ConfigureReport.jspa?atl_token=888af46eb9686dcb98b6e5c7489395dfb195f02c&versionId=-1&issueStatus=closed&selectedProjectId=12311030&reportKey=com.sourcelabs.jira.plugin.report.contributions%3Acontributionreport&Next=Next).
