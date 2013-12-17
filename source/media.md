@@ -18,11 +18,11 @@ your servers instead of directly linking to the files on our servers.
 
 **Dimensions**: 500x306px  
 **Format**: Raster (.png)  
-**URL**: [{{ site.url }}/images/media/libcloud_logo_without_text_large.png][3]  
+**URL**: [{{ site.url }}/images/media/libcloud-logo-without-text-large.png][3]  
 **Preview**:
 
-<a href="/images/media/libcloud_logo_without_text_large.png">
-    <img src="/images/media/libcloud_logo_without_text_large_thumb.png" />
+<a href="/images/media/libcloud-logo-without-text-large.png">
+    <img src="/images/media/libcloud-logo-without-text-large-thumb.png" />
 </a>
 
 [1]: {{ page.title }}
