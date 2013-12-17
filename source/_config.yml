@@ -34,4 +34,9 @@ asset_pipeline:
   #display_path: nil       # Default = nil
   gzip: true # Default = false
 
+gravatar:
+  size: 120
+  secure: true
+  default_image: mm
+
 lunr_excludes: [tags/.*\.html]
