@@ -5,14 +5,16 @@ title: Who's Using Libcloud?
 
 # {{ page.title }}
 
-This page includes a non-exhaustive list of projects and companies who are
-using Libcloud.
+This page includes a non-exhaustive list of projects, companies and
+organizations which are using Libcloud.
 
 ## Projects
 
 **Name:** mist.io  
 **Website:** [https://github.com/mistio/mist.io](https://github.com/mistio/mist.io)  
-**Description:** Mist.io is an open source software and a hosted service that helps you manage and monitor your servers across several cloud from any web device.  
+**Description:** Mist.io is an open source software and a hosted service that
+helps you manage and monitor your servers across several cloud from any web
+device.  
 
 **Name:** Dewpoint  
 **Website:** [https://github.com/secondstory/dewpoint](https://github.com/secondstory/dewpoint)  
@@ -24,18 +26,20 @@ using Libcloud.
 
 **Name:** Frigg  
 **Website:** [https://github.com/mig5/frigg](https://github.com/mig5/frigg)  
-**Description:** Script for provisioning a server and installing [Aegir](http://aegirproject.org/) on it.  
+**Description:** Script for provisioning a server and installing
+[Aegir](http://aegirproject.org/) on it.  
 
 **Name:** fusefs-cloudstorage  
 **Website:** [https://github.com/novel/fusefs-cloudstorage](https://github.com/novel/fusefs-cloudstorage)  
-**Description:** FUSE-based filesystem for accessing cloud storage such as Rackspace CloudFiles and Amazon S3.
+**Description:** FUSE-based filesystem for accessing cloud storage such as
+Rackspace CloudFiles and Amazon S3.
 
 **Name:** Kraftwerk  
 **Website:** [https://github.com/jokull/kraftwerk](https://github.com/jokull/kraftwerk)  
 **Description:** Command line utility that enables easier deployment and commissioning of cloud servers.
 
 **Name:** lc-tools  
-**Website:** [http://novel.github.com/lc-tools/](http://novel.github.com/lc-tools/)
+**Website:** [http://novel.github.com/lc-tools/](http://novel.github.com/lc-tools/)  
 **Description:** A set of command line tools for controlling various clouds.
 
 **Name:** OOI Cyberinfrastructure  
@@ -56,33 +60,64 @@ using Libcloud.
 
 **Name:** Silver Lining  
 **Website:** [http://cloudsilverlining.org/](http://cloudsilverlining.org/)  
-**Description:** Application for painless and simple deployment of Python and PHP applications to the Ubuntu based cloud servers.  
+**Description:** Application for painless and simple deployment of Python and
+PHP applications to the Ubuntu based cloud servers.  
 
 **Name:** madelon  
 **Website:** [https://github.com/mig5/madelon](https://github.com/mig5/madelon)  
-**Description:** libcloud-api wrapper to provision a server & run puppet manifests on it.  
+**Description:** libcloud-api wrapper to provision a server & run puppet
+manifests on it.  
+**Source code:** [https://github.com/mig5/madelon](https://github.com/mig5/madelon)  
 
 **Name:** CeleryManagement  
 **Website:** [http://bmbouter.github.com/CeleryManagement/](http://bmbouter.github.com/CeleryManagement/)  
-**Description:** Allows users to manage and in dynamic mode automatically provision celery works on the cloud.   
+**Description:** Allows users to manage and in dynamic mode automatically
+provision celery works on the cloud.   
 **Source code:** [https://github.com/bmbouter/CeleryManagement](https://github.com/bmbouter/CeleryManagement)
 
 **Name:** provision  
 **Website:** [https://github.com/genforma/provision](https://github.com/genforma/provision)  
-**Description:** Provision enables users to deploy customized nodes, either via shell commands, or as a Python library.   
+**Description:** Provision enables users to deploy customized nodes, either via
+shell commands, or as a Python library.   
 **Source code:** [https://github.com/genforma/provision](https://github.com/genforma/provision)
-
 
 **Name:** Salt Cloud  
 **Website:** [http://saltstack.org](http://saltstack.org)  
-**Description:** Salt Cloud is a cloud provisioning system that makes extensiveuse of libcloud to provision and manage cloud vms. It is primarily used toautomate the setup of cloud vms and make them check back into Salt.   
+**Description:** Salt Cloud is a cloud provisioning system that makes extensive
+use of libcloud to  provision and manage cloud vms. It is primarily used to
+automate the setup of cloud vms and make them check back into Salt.   
 **Source code:** [https://github.com/saltstack/salt-cloud](https://github.com/saltstack/salt-cloud)
 
-**Name:** Monash eScience and Grid Engineering Laboratory  
-**Website:** [http://www.messagelab.monash.edu.au/Nimrod](http://www.messagelab.monash.edu.au/Nimrod)  
-**Description:** A toolkit for scheduling and distributing embarrassingly parallel parameter driven sweeps across heterogeneous compute resources.
+**Name:** File Syncer  
+**Website:** [https://file-syncer.readthedocs.org/en/latest/](https://file-syncer.readthedocs.org/en/latest/)  
+**Description:** Python program which synchronizes files from a local directory
+to one of the cloud object storage providers supported by Libcloud and
+vice-versa.  
+**Source code:** [https://github.com/Kami/python-file-syncer/](https://github.com/Kami/python-file-syncer/)
 
-## Companies
+**Name:** depot  
+**Website:** [https://github.com/coderanger/depot](https://github.com/coderanger/depot)  
+**Description:** Allows you to manage package repositories in the cloud.  
+**Source code:** [https://github.com/coderanger/depot](https://github.com/coderanger/depot)
+
+**Name:** wonton  
+**Website:** [https://github.com/rackerlabs/wonton](https://github.com/rackerlabs/wonton)  
+**Description:** Gevent-based, multithreaded tool for bulk transferring objects
+from Amazon S3 to Rackspace Cloud Files or vice versa.  
+**Source code:** [https://github.com/rackerlabs/wonton](https://github.com/rackerlabs/wonton)
+
+**Name:** fabric-maestro  
+**Website:** [https://github.com/ehazlett/fabric-maestro](https://github.com/ehazlett/fabric-maestro)  
+**Description:** Maestro is a Fabric based toolkit for managing systems. There
+is also integration with cloud providers via Apache Libcloud.  
+**Source code:** [https://github.com/ehazlett/fabric-maestro](https://github.com/ehazlett/fabric-maestro)
+
+**Name:** Nimrod Toolkit  
+**Website:** [http://www.messagelab.monash.edu.au/Nimrod](http://www.messagelab.monash.edu.au/Nimrod)  
+**Description:** A toolkit for scheduling and distributing embarrassingly
+parallel parameter driven sweeps across heterogeneous compute resources.
+
+## Companies and Organizations
 
 **Name:** Rackspace  
 **Website:** [http://www.rackspace.com/](http://www.rackspace.com/)
@@ -114,9 +149,12 @@ using Libcloud.
 **Name:** Salt Stack  
 **Website:** [http://saltstack.com/](http://saltstack.com/)  
 
+**Name:** Monash eScience and Grid Engineering Laboratory  
+**Website:** [http://www.messagelab.monash.edu.au](http://www.messagelab.monash.edu.au)  
+
 ## Not Listed?
 
-If you or someone you know is using Libcloud but is not listed on this page,
+If you or someone you know is using Libcloud, but is not listed on this page,
 please [let us know][2].
 
 [1]: {{ page.url }}
