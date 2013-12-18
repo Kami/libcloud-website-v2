@@ -5,10 +5,24 @@ html, body {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.6em;
+    padding-top: 80px;
 }
 
 .main-container {
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h2.anchor {
     padding-top: 80px;
+    margin-top: -70px;
+}
+
+a[name] {
+    color: #000000;
+    text-decoration: none;
 }
 
 /* Navigation bar styles */
