@@ -24,6 +24,8 @@ markdown:    redcarpet
 pygments:    true
 permalink: blog/:year/:month/:day/:title.html
 
+paginate: 10
+
 tag_page_layout: tag_page
 tag_page_dir: tags
 
@@ -40,3 +42,6 @@ gravatar:
   default_image: mm
 
 lunr_excludes: [tags/.*\.html]
+
+# Archive plugin settings
+archive_dir: blog/archives
