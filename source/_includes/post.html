@@ -1,0 +1,13 @@
+<div class="post">
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  {{ post.content }}
+
+  <div class="row section post-meta">
+    <div class="col-md-6">
+      <p>Posted by <strong>{{ post.author }}</strong> on {{ post.date | date: "%B %d, %Y" }}</p>
+    </div>
+    <div class="col-md-6 post-tags">
+      <p>Tags: {{ post | tags }}</p>
+    </div>
+  </div>
+</div>
