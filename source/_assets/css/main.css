@@ -147,17 +147,20 @@ img.center {
 
 /* Blog styles */
 div.post h2 {
-    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+span.post-date-author {
+    font-style: italic;
+    color: rgba(77,77,77,0.75);
+}
+
+div.post-content {
+    margin-top: 20px;
 }
 
 div.post-meta {
     margin-top: 30px;
-}
-
-@media (min-width: 992px) {
-    div.post-tags p {
-        float: right;
-    }
 }
 
 /* Misc */
