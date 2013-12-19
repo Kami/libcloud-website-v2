@@ -8,5 +8,3 @@ tags:
 ---
 
 Libcloud 0.2.0 has been released.
-
-[1]: {{ page.url }}
