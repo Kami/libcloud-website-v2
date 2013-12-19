@@ -152,6 +152,9 @@ parallel parameter driven sweeps across heterogeneous compute resources.
 **Name:** Monash eScience and Grid Engineering Laboratory  
 **Website:** [http://www.messagelab.monash.edu.au](http://www.messagelab.monash.edu.au)  
 
+**Name:** Scalr  
+**Website:** [http://www.scalr.com/](http://www.scalr.com/)
+
 ## Not Listed?
 
 If you or someone you know is using Libcloud, but is not listed on this page,
