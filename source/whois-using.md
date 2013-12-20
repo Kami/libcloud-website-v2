@@ -155,6 +155,9 @@ parallel parameter driven sweeps across heterogeneous compute resources.
 **Name:** Scalr  
 **Website:** [http://www.scalr.com/](http://www.scalr.com/)
 
+**Name:** DivvyCloud  
+**Website:** [http://www.divvycloud.com/](http://www.divvycloud.com/)
+
 ## Not Listed?
 
 If you or someone you know is using Libcloud, but is not listed on this page,
