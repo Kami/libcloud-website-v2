@@ -8,7 +8,7 @@ title: Downloads
 This page contains link to the latest stable release of Libcloud. If you are
 interested in an older release, please visit the [archive page][15].
 
-<a name="latest-release" id="latest-release"><h2 class="anchor">Libcloud 0.13.2 - Released on September 18th, 2013</h2></a>
+<a name="latest-stable-release" id="latest-stable-release"><h2 class="anchor">Libcloud 0.13.2 (stable) - Released on September 18th, 2013</h2></a>
 
 Files:
 
@@ -16,11 +16,19 @@ Files:
 * [apache-libcloud-0.13.2.tar.gz][6] [[asc][7]] [[sha1][8]] [[md5][9]]
 * [apache-libcloud-0.13.2.tar.gz][10] [[asc][11]] [[sha1][12]] [[md5][13]]
 
-Upgrade notes: [Click][16]
-
 You are strongly encouraged to verify those packages using the [Apache Libcloud
 developers KEYS][14]. You can find information on how to do that in the
 "Quick package verification guide" section bellow.
+
+<a name="latest-beta-release" id="latest-beta-release"><h2 class="anchor">Libcloud 0.14.0-beta3 (beta) - Released on November 21st, 2013</h2></a>
+
+Files:
+
+* [apache-libcloud-0.14.0-beta3.tar.gz][17] [[asc][18]] [[sha1][19]] [[md5][20]]
+* [apache-libcloud-0.14.0-beta3.tar.gz][21] [[asc][22]] [[sha1][23]] [[md5][24]]
+* [apache-libcloud-0.14.0-beta3.tar.gz][25] [[asc][26]] [[sha1][27]] [[md5][28]]
+
+Upgrade notes: [Click][29]
 
 <a name="distribution-packages" id="distribution-packages"><h2 class="anchor">Distribution specific packages</h2></a>
 
@@ -142,3 +150,16 @@ gpg: BAD signature from "Paul Querna <...>"
 [14]: http://www.apache.org/dist/libcloud/KEYS
 [15]: http://www.apache.org/dist/libcloud/
 [16]: https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
+[17]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz
+[18]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz.asc
+[19]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz.sha1
+[20]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz.md5
+[21]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.bz2
+[22]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.bz2.asc
+[23]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.bz2.sha1
+[24]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.bz2.md5
+[25]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.zip
+[26]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.zip.asc
+[27]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.zip.sha1
+[28]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.zip.md5
+[29]: https://libcloud.readthedocs.org/en/latest/upgrade_notes.html#libcloud-0-14-0
