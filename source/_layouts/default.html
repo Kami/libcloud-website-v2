@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ site.description }}">
+
+    {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+    {% else %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
     <meta name="author" content="{{ site.author }}">
 
     {% if page.tags %}
@@ -19,15 +25,49 @@
       <title>{{ site.title }} | Apache Libcloud Python library</title>
     {% endif %}
 
-    <link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="Apache Libcloud Blog Feed" />
-
     <!-- fav icons -->
     <link rel="shortcut icon" href="/images/favicon.png" />
     <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
     <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png" />
 
+    <link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="Apache Libcloud Blog Feed" />
+
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+    <!-- Facebook OpenGraph tags -->
+    <meta content="{{ site.title }}" property="og:site_name">
+    {% if page.title %}
+      <meta content="{{ page.title }}" property="og:title">
+    {% else %}
+      <meta content="{{ site.title }}" property="og:title">
+    {% endif %}
+
+    {% if page.description %}
+      <meta content="{{ page.description }}" property="og:description">
+    {% else %}
+      <meta content="{{ site.description }}" property="og:description">
+    {% endif %}
+
+    {% if page.title and page.tags %}
+      <meta content="article" property="og:type">
+    {% else %}
+      <meta content="website" property="og:type">
+    {% endif %}
+
+    {% if page.url %}
+      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    {% endif %}
+    {% if page.date %}
+      <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+      <meta content="{{ site.url }}/about.html" property="article:author">
+    {% endif %}
+
+    {% if page.tags %}
+      {% for tag in page.tags %}
+      <meta content="{{ tag }}" property="article:tag">
+      {% endfor %}
+    {% endif %}
 
     {% css_asset_tag global %}
       - /_assets/css/extern/bootstrap.css
