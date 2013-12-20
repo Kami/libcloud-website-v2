@@ -118,6 +118,35 @@ img.logo {
     margin-right: 5px;
 }
 
+/* Content pages */
+
+div.sidebar-nav {
+    position: fixed;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    div.sidebar-nav {
+        position: relative;
+    }
+}
+
+.sidebar-nav > ul > li > a {
+    padding: 5px 10px;
+}
+
+.sidebar-nav > ul > li.active > a {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+.sidebar-nav > ul > li.active > a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
 /* Credits page */
 
 div.member {
