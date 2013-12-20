@@ -27,9 +27,49 @@ developers KEYS][14]. You can find information on how to do that in the
 Libcloud is also available in standard repositories of many popular Linux
 distributions.
 
-* Ubuntu, Debian (apt) - `python-libcloud`
-* Fedora (yum) - `python-libcloud`
-* FreeBSD (ports) - `ports/net/py-libcloud`
+<a name="ubuntu-debian"><h3 class="anchor">Ubuntu, Debian (apt)</h3></a>
+
+Package name: `python-libcloud`  
+Installation:
+
+{% highlight bash %}
+apt-get install python-libcloud
+{% endhighlight %}
+
+<a name="feedora-redhat"><h3 class="anchor">Fedora, RedHat (yum)</h3></a>
+
+Package name: `python-libcloud`  
+Installation:
+
+{% highlight bash %}
+yum install python-libcloud
+{% endhighlight %}
+
+<a name="freebsd"><h3 class="anchor">FreeBSD (ports, packages)</h3></a>
+
+Port name: `ports/net/py-libcloud`  
+Installation:
+
+{% highlight bash %}
+cd /usr/ports/net/py-libcloud
+make install clean
+{% endhighlight %}
+
+Package name: `py-libcloud`  
+Installation:
+
+{% highlight bash %}
+pkg_add -r py27-libcloud
+{% endhighlight %}
+
+<a name="osx"><h3 class="anchor">OS X (MacPorts)</h3></a>
+
+Port name: `py-libcloud`
+Installation:
+
+{% highlight bash %}
+port installl py-libcloud
+{% endhighlight %}
 
 Keep in mind that distribution packages may be out of date. If you want to make
 sure that you are using the latest version, you should install it by downloading
