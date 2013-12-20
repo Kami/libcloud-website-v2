@@ -8,7 +8,7 @@ title: Downloads
 This page contains link to the latest stable release of Libcloud. If you are
 interested in an older release, please visit the [archive page][15].
 
-## Libcloud 0.13.2 - Released on September 18th, 2013
+<a name="latest-release"><h2 class="anchor">Libcloud 0.13.2 - Released on September 18th, 2013</h2></a>
 
 Files:
 
@@ -22,7 +22,7 @@ You are strongly encouraged to verify those packages using the [Apache Libcloud
 developers KEYS][14]. You can find information on how to do that in the
 "Quick package verification guide" section bellow.
 
-## Distribution specific packages
+<a name="distribution-packages"><h2 class="anchor">Distribution specific packages</h2></a>
 
 Libcloud is also available in standard repositories of many popular Linux
 distributions.
@@ -35,11 +35,11 @@ Keep in mind that distribution packages may be out of date. If you want to make
 sure that you are using the latest version, you should install it by downloading
 the archive from this page or using pip.
 
-## Old releases
+<a name="old-releases"><h2 class="anchor">Old releases</h2></a>
 
 Old releases can be found in the archive at [http://www.apache.org/dist/libcloud/][15].
 
-## Quick package verification guide
+<a name="package-verification-guide"><h2 class="anchor">Quick package verification guide</h2></a>
 
 This section contains quick instructions on how to validate the release PGP
 signatures.
@@ -83,7 +83,7 @@ Example of a bad signature:
 {% highlight bash %}
 gpg --verify apache-libcloud-0.13.2.tar.bz2.asc
 gpg: Signature made Wed Oct  6 15:31:35 2010 CDT using DSA key ID 42721F00
-gpg: BAD signature from "Paul Querna &lt;...&gt;"
+gpg: BAD signature from "Paul Querna <...>"
 {% endhighlight %}
 
 [1]: {{ page.url }}

@@ -5,28 +5,28 @@ title: Community
 
 # {{ page.title }}
 
-## Mailing Lists
+<a name="mailing-lists"><h2 class="anchor">Mailing Lists</h2></a>
 
 * [users@libcloud.apache.org](mailto:users-subscribe@libcloud.apache.org) - Mailing list for general talk about Libcloud and other off-topic things ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-users/))
 * [dev@libcloud.apache.org](mailto:dev-subscribe@libcloud.apache.org) - General mailing list for developers ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-dev/))
 * [commits@libcloud.apache.org](mailto:commits-subscribe@libcloud.apache.org) - Commits messages go to this mailing list ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-commits/))
 
-## IRC Chat
+<a name="irc-chat"><h2 class="anchor">IRC Chat</h2></a>
 
 * [#libcloud][2] on Freenode
 
-## Issue Tracker
+<a name="issue-tracker"><h2 class="anchor">Issue Tracker</h2></a>
 
 * Apache JIRA: [https://issues.apache.org/jira/browse/LIBCLOUD][7]
 
-## Main Code Repository
+<a name="code-repository"><h2 class="anchor">Main Code Repository</h2></a>
 
 Project source code is stored in an Apache hosted git repository.
 
 * Repository: [https://git-wip-us.apache.org/repos/asf/libcloud.git](https://git-wip-us.apache.org/repos/asf/libcloud.git)
 * Gitweb: [https://git-wip-us.apache.org/repos/asf?p=libcloud.git](https://git-wip-us.apache.org/repos/asf?p=libcloud.git)
 
-## Website Code Repository
+<a name="website-repository"><h2 class="anchor">Website Code Repository</h2></a>
 
 Website source code is stored in an Apache hosted svn repository. Source code
 is stored in an svn and not git repository, because svn-based
@@ -36,12 +36,12 @@ for distributing change notification to the web servers.
 * Repository: [https://svn.apache.org/repos/asf/libcloud/site/trunk](https://svn.apache.org/repos/asf/libcloud/site/trunk)
 * ViewVc: [https://svn.apache.org/viewvc/libcloud/site/](https://svn.apache.org/viewvc/libcloud/site/)
 
-## Contributing to Libcloud
+<a name="contributing"><h2 class="anchor">Contributing to Libcloud</h2></a>
 
 For information on how to contribute, please see [Contributing][8] section in
 the documentation.
 
-## Other
+<a name="other"><h2 class="anchor">Other</h2></a>
 
 * [apache/libcloud][5] on Github
 * [@libcloud][3] on Twitter

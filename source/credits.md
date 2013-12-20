@@ -8,13 +8,13 @@ title: Credits
 This page lists Libcloud team members and all the people who have contributed
 have contributed to the project and are recorded in the CHANGES file.
 
-## Thanks
+<a name="thanks"><h2 class="anchor">Thanks</h2></a>
 
 We would like to thank each and every person who has contributed to Libcloud in
 any form (be it a code change, documentation change, bug fix, typo fix,
 feature suggestion or similar).
 
-## Team Members
+<a name="team-members"><h2 class="anchor">Team Members</h2></a>
 
 <div class="row section member">
   <div class="col-md-8">
@@ -136,14 +136,14 @@ feature suggestion or similar).
   </div>
 </div>
 
-## Alumni
+<a name="alumni"><h2 class="anchor">Alumni</h2></a>
 
 * Alex Polvi (original Libcloud developer and founder)
 * Dan Di Spaltro (committer)
 * Ivan Meredith (committer)
 * Jed Smith (committer, PMC member)
 
-## Contributors
+<a name="contributors"><h2 class="anchor">Contributors</h2></a>
 
 This section lists all the people who have contributed code or a documentation
 change to Libcloud. It's automatically generated from the [CHANGES][3] file so
