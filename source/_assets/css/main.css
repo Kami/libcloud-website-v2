@@ -192,6 +192,21 @@ div.post-meta {
     margin-top: 30px;
 }
 
+div.imginline {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+img.inline {
+  border: none !important;
+  margin: 0 auto 8px;
+}
+
+p.img-caption {
+  margin-top: 10px;
+}
+
 /* Misc */
 code {
     font-family: 'Inconsolata', monospace;
