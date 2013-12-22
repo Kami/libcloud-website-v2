@@ -7,9 +7,9 @@ exclude: ['README.md', 'sitemap.xml']
 
 url: https://libcloud.apache.org
 domain: libcloud.apache.org
-title: Apache Libcloud Python Library
+title: Apache Libcloud
 headline: Standard Python library that abstracts away differences among multiple cloud provider APIs
-description: Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs
+description: Apache Libcloud is a Python library that abstracts away differences among multiple cloud provider APIs
 author: The Apache Software Foundation
 keywords:
   - python
