@@ -19,3 +19,4 @@ Redirect 301 /supported_providers.html  https://libcloud.readthedocs.org/en/late
 Redirect 301 /driver-features.html https://libcloud.readthedocs.org/en/latest/supported_providers.html
 
 Redirect 301 /testing.html https://libcloud.readthedocs.org/en/latest/testing.html
+Redirect 301 /contributing.html https://libcloud.readthedocs.org/en/latest/development.html#contributing
