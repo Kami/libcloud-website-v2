@@ -43,6 +43,10 @@
       <meta content="{{ site.title }}" property="og:title">
     {% endif %}
 
+    {% if page.url == "/" or page.url == "/index.html" %}
+      <meta content="{{ site.url }}/images/media/libcloud-logo-with-text-medium.png" property="og:image">
+    {% endif %}
+
     {% if page.description %}
       <meta content="{{ page.description }}" property="og:description">
     {% else %}
