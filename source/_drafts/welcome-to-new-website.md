@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to new website
+title: Welcome to the New Website
 author: Tomaz Muraus
 tags:
   - news
@@ -53,6 +53,15 @@ bigger fonts, better typography and so on.
 
 On top of that, the new design is fully responsive which means you can now
 better enjoy the content on smaller devices such as mobile phones and tablets.
+
+#### Improved and re-designed landing page
+
+We know that landing pages are very important so we have decided to totally
+re-design and re-organise ours.
+
+New landing page now displays all the important information (project features,
+code examples, showcases some companies and projects using Libcloud) and also
+features a more clear to action.
 
 #### Blog section
 
