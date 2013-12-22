@@ -7,16 +7,4 @@ layout: default
   {% include post.html %}
 {% endfor %}
 
-<p class="navigation">
-  {% if paginator.next_page %}
-    <span class="alignleft"><a href="/blog/archives/{{ page.year }}/{{ page.month }}/page/{{ paginator.next_page }}/">« Previous Page</a></span>
-  {% endif %}
-
-  {% if paginator.previous_page %}
-    {% if paginator.previous_page > 1 %}
-      <span class="alignright"><a href="/blog/archives/{{ page.year }}/{{ page.month }}/page/{{ paginator.previous_page }}/">Next Page »</a></span>
-    {% else %}
-      <span class="alignright"><a href="/blog/archives/{{ page.year }}/{{ page.month }}/">Next Page »</a></span>
-    {% endif %}
-  {% endif %}
-</p>
+{% include pagination_bar.html %}
