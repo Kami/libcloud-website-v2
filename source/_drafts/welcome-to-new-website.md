@@ -12,45 +12,47 @@ of our website.
 
 ### Background and History
 
-Original website was first developed and published back in 2009 when the
-project joined Apache Incubator.
+Original website was developed and published back in 2009 when the project was
+first announced.
 
 A lot has changed since 2009 and during that time the web has been evolving at
 a rapid pace. Now we have terms such as [responsive web design][2], great
 front-end frameworks for building responsive websites such as [Bootstrap][2]
-and [Zurb][3] and many other new things which didn't exist back when we first
-launched.
+and [Zurb][3] and many other new things which didn't exist or weren't widely
+used back when we first launched.
 
 During this time we focused most of our efforts on improving the code and
 making the library better. This meant the website didn't receive a lot of
-needed love and attention so look-wise, it was mostly stuck in the 2009 era.
+needed love and attention so design-wise, it was mostly stuck in the 2009 era.
 
-Over the years it has also become apparent that presentation and documentation
-is also equally or even more important then the code itself so we have decided
+Over the years it has become apparent that presentation and documentation is
+also equally or even more important then the code itself, so we have decided
+to improve some
+
 to "fix" some of the "mistakes" we have made in the past.
 
-A couple of months back we have launched a [new documentation][4] and today
-we are happy to present you a new website which was built with modern tools and
-principles in mind.
+A couple of months back we launched a [new documentation][4] and today, we are
+happy to present you a new and much improved website which was built with
+modern tools and principles in mind.
 
-### Improvements and new features
+### Improvements and New Features
 
 <div class="imginline">
   <img src="/images/posts/tbd/preview.png" class="img-responsive inline" />
-  <p class="img-caption">New website now features a fully responsive
-  design. Image by placeit.net.</p>
+  <p class="img-caption">Responsive design makes a site pleasure to use on a
+  variety of devices and screen sizes. Image by placeit.net.</p>
 </div>
 
-New website features many improvements and new features. Some of the more
+New website includes many improvements and new features. Some of the more
 important ones are listed bellow.
 
 #### More modern and user-friendly design
 
-New website now features a more modern and user-friendly design (bigger fonts,
-better typography, etc.).
+New website now features a more modern and user-friendly design. This includes
+bigger fonts, better typography and so on.
 
 On top of that, the new design is fully responsive which means you can now
-better enjoy the content on smaller devices such ad mobile phones and tablets.
+better enjoy the content on smaller devices such as mobile phones and tablets.
 
 #### Blog section
 
@@ -62,10 +64,10 @@ you up to date with what is currently going on.
 For all the people who still use RSS readers to stay up to date, we now also
 offer an [ATOM feed][10].
 
-#### Updated credits page
+#### Updated Credits Page
 
 [Credits][9] page now features an up to date list of people who have
-contributed code or documentation.
+contributed code and documentation.
 
 As noted on that page, the list is automatically generated from the CHANGES
 file so it might not be 100% accurate.
@@ -73,15 +75,17 @@ file so it might not be 100% accurate.
 ### Under the Hood
 
 Old website was powered by [Apache CMS][6]. It mostly worked good enough for
-simple use cases, but it had a small user base which meant it was lacking
-plugin and modifications ecosystems offered by many other popular content
-management systems.
+simple use cases, but a small user base means it lacks a large ecosystem around
+it which is pretty standard for many other popular content management systems.
 
 Because of that, we have decided to switch to [Jekyll][7], a Ruby based static
-website and blogging engine.
+website and blog engine.
 
 On top of that, the new website is fully responsive and built using
-[Bootstrap 3][2] framework.
+[Bootstrap 3][2] front-end framework.
+
+Similar to the old website, source code is still stored in an SVN repository
+so all the benefits we got from that are preserved.
 
 Source code of the new website can be found in the [SVN repository][8].
 
