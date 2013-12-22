@@ -5,9 +5,10 @@ title: About
 
 <a name="about" id="about"><h1 class="anchor">About</h1></a>
 
-Libcloud is a Python library which hides differences between different cloud
-provider APIs. It allows you to manage different cloud resources offered by
-many different providers through a unified and easy to use API.
+Libcloud is a Python library for interacting with many of the popular cloud
+service providers using a uniform API. It was created to make it easy for
+developers to build products that work between any of the services that it
+supports.
 
 Resource you can manage with Libcloud are divided in the following categories:
 
