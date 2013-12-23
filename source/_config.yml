@@ -53,7 +53,7 @@ archive_dir: blog/archives
 # Site specific stuff
 navigation:
 - text: Home
-  url: /index.html
+  url: /
 - text: About
   url: /about.html
 - text: Quick Start

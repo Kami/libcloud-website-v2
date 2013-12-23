@@ -73,6 +73,11 @@ ul.nav.navbar-nav li a {
     color: #000000 !important;
 }
 
+.navbar-nav > li.active > a {
+    color: #818181 !important;
+    background-color: #dfdfdf !important;
+}
+
 /* Custom color for responsive button thingy */
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle {
     background-color: #818181;

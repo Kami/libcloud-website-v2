@@ -92,11 +92,11 @@
           </button>
           <a class="navbar-brand" href="/index.html"><img src="/images/libcloud_logo.png" class="navbar-logo" /> Apache Libcloud</a>
         </div>
-
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
+            {% assign url = page.url | remove:"index.html" %}
             {% for item in site.navigation %}
-              <li {% if item.text != "Home" and page.url == item.url %}class="active"{% endif %}><a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}>{{ item.text }}</a></li>
+              <li {% if item.text != "Home" and url == item.url %}class="active"{% endif %}><a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}>{{ item.text }}</a></li>
             {% endfor %}
           </ul>
         </div><!-- /.navbar-collapse -->
