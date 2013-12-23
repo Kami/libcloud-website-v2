@@ -95,13 +95,9 @@
 
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/getting-started.html">Quick Start</a></li>
-            <li><a href="https://libcloud.readthedocs.org/en/latest/" target="_blank">Documentation</a></li>
-            <li><a href="/downloads.html">Downloads</a></li>
-            <li><a href="/community.html">Community</a></li>
-            <li><a href="/blog/">Blog</a></li>
+            {% for item in site.navigation %}
+              <li {% if item.text != "Home" and page.url == item.url %}class="active"{% endif %}><a href="{{ item.url }}" {% if item.external %}target="_blank"{% endif %}>{{ item.text }}</a></li>
+            {% endfor %}
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->

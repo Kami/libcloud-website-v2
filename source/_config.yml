@@ -49,3 +49,21 @@ lunr_excludes: [tags/.*\.html]
 
 # Archive plugin settings
 archive_dir: blog/archives
+
+# Site specific stuff
+navigation:
+- text: Home
+  url: /index.html
+- text: About
+  url: /about.html
+- text: Quick Start
+  url: /getting-started.html
+- text: Documentation
+  url: https://libcloud.readthedocs.org/en/latest/
+  external: true
+- text: Downloads
+  url: /downloads.html
+- text: Community
+  url: /community.html
+- text: Blog
+  url: /blog/
