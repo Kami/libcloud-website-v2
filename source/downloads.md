@@ -13,8 +13,8 @@ interested in an older release, please visit the [archive page][15].
 Files:
 
 * [apache-libcloud-0.13.2.tar.gz][2] [[asc][3]] [[sha1][4]] [[md5][5]]
-* [apache-libcloud-0.13.2.tar.gz][6] [[asc][7]] [[sha1][8]] [[md5][9]]
-* [apache-libcloud-0.13.2.tar.gz][10] [[asc][11]] [[sha1][12]] [[md5][13]]
+* [apache-libcloud-0.13.2.tar.bz2][6] [[asc][7]] [[sha1][8]] [[md5][9]]
+* [apache-libcloud-0.13.2.tar.zip][10] [[asc][11]] [[sha1][12]] [[md5][13]]
 
 You are strongly encouraged to verify those packages using the [Apache Libcloud
 developers KEYS][14]. You can find information on how to do that in the
@@ -25,8 +25,8 @@ developers KEYS][14]. You can find information on how to do that in the
 Files:
 
 * [apache-libcloud-0.14.0-beta3.tar.gz][17] [[asc][18]] [[sha1][19]] [[md5][20]]
-* [apache-libcloud-0.14.0-beta3.tar.gz][21] [[asc][22]] [[sha1][23]] [[md5][24]]
-* [apache-libcloud-0.14.0-beta3.tar.gz][25] [[asc][26]] [[sha1][27]] [[md5][28]]
+* [apache-libcloud-0.14.0-beta3.tar.bz2][21] [[asc][22]] [[sha1][23]] [[md5][24]]
+* [apache-libcloud-0.14.0-beta3.tar.zip][25] [[asc][26]] [[sha1][27]] [[md5][28]]
 
 Upgrade notes: [Click][29]
 
@@ -86,6 +86,8 @@ the archive from this page or using pip.
 <a name="old-releases" id="old-releases"><h2 class="anchor">Old releases</h2></a>
 
 Old releases can be found in the archive at [http://www.apache.org/dist/libcloud/][15].
+We strongly recommend to not use those releases, but upgrade to the latest
+release available.
 
 <a name="package-verification-guide" id="package-verification-guide"><h2 class="anchor">Quick package verification guide</h2></a>
 
@@ -95,7 +97,7 @@ signatures.
 1. Download the `KEYS` file from the Apache website
 
 {% highlight bash %}
-wget http://www.apache.org/dist/libcloud/KEYS
+wget https://www.apache.org/dist/libcloud/KEYS
 {% endhighlight %}
 
 It is very important to only download `KEYS` file from the Apache server which
@@ -147,8 +149,8 @@ gpg: BAD signature from "Paul Querna <...>"
 [11]: http://www.apache.org/dist/libcloud/apache-libcloud-0.13.2.zip.asc
 [12]: http://www.apache.org/dist/libcloud/apache-libcloud-0.13.2.zip.sha1
 [13]: http://www.apache.org/dist/libcloud/apache-libcloud-0.13.2.zip.md5
-[14]: http://www.apache.org/dist/libcloud/KEYS
-[15]: http://www.apache.org/dist/libcloud/
+[14]: https://www.apache.org/dist/libcloud/KEYS
+[15]: http://archive.apache.org/dist/libcloud/
 [16]: https://libcloud.readthedocs.org/en/latest/upgrade_notes.html
 [17]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz
 [18]: http://www.apache.org/dist/libcloud/apache-libcloud-0.14.0-beta3.tar.gz.asc
