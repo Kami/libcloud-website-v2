@@ -83,6 +83,22 @@ Keep in mind that distribution packages may be out of date. If you want to make
 sure that you are using the latest version, you should install it by downloading
 the archive from this page or using pip.
 
+<a name="pypi-package" id="pypi-package"><h2 class="anchor">PyPi Package</h2></a>
+
+The Python Package Index or PyPI is the official third-party software
+repository for the Python programming language.
+
+We push all the releases to PyPi so you can also download and install the
+latest release using pip:
+
+{% highlight bash %}
+pip install apache-libcloud
+{% endhighlight %}
+
+Keep in mind that `pip install` command doesn't verify the package signatures,
+so if you are worried about that, you should manually download the package and
+verify the signature using the steps described bellow.
+
 <a name="old-releases" id="old-releases"><h2 class="anchor">Old releases</h2></a>
 
 Old releases can be found in the archive at [http://www.apache.org/dist/libcloud/][15].
@@ -94,7 +110,7 @@ release available.
 This section contains quick instructions on how to validate the release PGP
 signatures.
 
-1. Download the `KEYS` file from the Apache website
+1.. Download the `KEYS` file from the Apache website
 
 {% highlight bash %}
 wget https://www.apache.org/dist/libcloud/KEYS
@@ -115,7 +131,7 @@ is mentioned above.
    gpg: next trustdb check due at 2011-10-30</pre>
    {% endhighlight %}
 
-2.. Verify package with `.asc` signature file
+3.. Verify package with `.asc` signature file
 
 {% highlight bash %}
 gpg --verify apache-libcloud-0.13.2.tar.bz2.asc
