@@ -7,9 +7,15 @@ title: Community
 
 <a name="mailing-lists" id="mailing-lists"><h2 class="anchor">Mailing Lists</h2></a>
 
-* [users@libcloud.apache.org](mailto:users-subscribe@libcloud.apache.org) - Mailing list for general talk about Libcloud and other off-topic things ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-users/))
-* [dev@libcloud.apache.org](mailto:dev-subscribe@libcloud.apache.org) - General mailing list for developers ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-dev/))
-* [commits@libcloud.apache.org](mailto:commits-subscribe@libcloud.apache.org) - Commits messages go to this mailing list ([archive](http://mail-archives.apache.org/mod_mbox/libcloud-commits/))
+* [announce@libcloud.apache.org][9] ([archive][10]) - Only important project
+  updates and release announcements are sent to this list (low volume).
+* [users@libcloud.apache.org][11] ([archive][12]) - Mailing list for Libcloud
+  users (low volume)
+* [dev@libcloud.apache.org][13] ([archive][14]) - Mailing list for Libcloud
+  developers and people interested in contributing to Libcloud (moderate volume)
+* [commits@libcloud.apache.org][15] ([archive][16]) - Commits messages, pull
+  request notifications, build notifications and other automated messages go
+  to this mailing list (high volume)
 
 <a name="irc-chat" id="irc-chat"><h2 class="anchor">IRC Chat</h2></a>
 
@@ -56,3 +62,11 @@ the documentation.
 [6]: https://www.ohloh.net/p/libcloud/
 [7]: https://github.com/apache/libcloud
 [8]: https://libcloud.readthedocs.org/en/latest/development.html#contributing
+[9]: mailto:announce-subscribe@libcloud.apache.org
+[10]: http://mail-archives.apache.org/mod_mbox/libcloud-announce/
+[11]: mailto:users-subscribe@libcloud.apache.org
+[12]: http://mail-archives.apache.org/mod_mbox/libcloud-users/
+[13]: mailto:dev-subscribe@libcloud.apache.org
+[14]: http://mail-archives.apache.org/mod_mbox/libcloud-dev/
+[15]: mailto:commits-subscribe@libcloud.apache.org
+[16]: http://mail-archives.apache.org/mod_mbox/libcloud-commits/
