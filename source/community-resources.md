@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Community Resources
+description: Learn about Libcloud by reading presentations and articles written by other Libcloud users and developers.
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Credits
+description: See a list of Libcloud team members and people who have contributed to the project.
 ---
 
 # {{ page.title }}

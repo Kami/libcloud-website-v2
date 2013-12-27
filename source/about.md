@@ -1,6 +1,7 @@
 ---
 layout: page_with_sidebar
 title: About
+description: Libcloud is a Python library for interacting with many of the popular cloud service providers using a uniform API
 ---
 
 <a name="about" id="about"><h1 class="anchor">About</h1></a>

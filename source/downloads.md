@@ -1,6 +1,7 @@
 ---
 layout: page_with_sidebar
 title: Downloads
+description: Download the latest version of Libcloud.
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Security
+description: See a list of known vulnerabilities which have been fixed and find information on how to report a new vulnerability
 ---
 
 # {{ page.title }}

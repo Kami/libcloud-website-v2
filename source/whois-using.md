@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Who's Using Libcloud?
+description: See which companies, organizations and projects are using Libcloud and learn from their usage.
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 layout: page_with_sidebar
 title: Getting Started
+description: Get up and running with Libcloud in just a couple of minutes
 ---
 
 # {{ page.title }}
