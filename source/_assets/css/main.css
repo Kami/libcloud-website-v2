@@ -123,8 +123,20 @@ img.logo {
     margin-right: 5px;
 }
 
-/* Content pages */
 
+/* Carousel */
+.carousel-control {
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: inline;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background: none !important;
+}
+
+/* Content pages */
 div.sidebar-nav {
     position: fixed;
     margin-top: 20px;
