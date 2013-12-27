@@ -42,6 +42,15 @@ for distributing change notification to the web servers.
 * Repository: [https://svn.apache.org/repos/asf/libcloud/site/trunk](https://svn.apache.org/repos/asf/libcloud/site/trunk)
 * ViewVc: [https://svn.apache.org/viewvc/libcloud/site/](https://svn.apache.org/viewvc/libcloud/site/)
 
+<a name="contributing" id="contributing"><h2 class="anchor">Community Resources</h2></a>
+
+See [Community Resources][18] page for a list of articles, presentations and
+blog posts written by Libcloud users and developers.
+
+<a name="gsoc" id="gsoc"><h2 class="anchor">Google Summer of Code</h2></a>
+
+See [Google Summer of Code page][17].
+
 <a name="contributing" id="contributing"><h2 class="anchor">Contributing to Libcloud</h2></a>
 
 For information on how to contribute, please see [Contributing][8] section in
@@ -70,3 +79,5 @@ the documentation.
 [14]: http://mail-archives.apache.org/mod_mbox/libcloud-dev/
 [15]: mailto:commits-subscribe@libcloud.apache.org
 [16]: http://mail-archives.apache.org/mod_mbox/libcloud-commits/
+[17]: /gsoc.html
+[18]: /community-resources.html
