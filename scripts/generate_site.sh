@@ -12,6 +12,7 @@ rsync -vur --delete source/_site/* .
 rm -rf source/_site
 rm -rf _site
 git add .
+git add -u .
 git commit -m "Generate website"
 
 git checkout master
