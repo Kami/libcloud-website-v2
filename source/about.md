@@ -63,17 +63,23 @@ to prepare and get the release out as soon as possible.
 3. Security fix release - We prepare and get the release out as soon as
 possible.
 
-<a name="similar-libs-other-langs" id="similar-libs-other-langs"><h2 class="anchor">Similar Libraries in Other Languages</h2>
+<a name="similar-libs-other-langs" id="similar-libs-other-langs"><h2 class="anchor">Similar Libraries in Other Languages</h2></a>
 
-As noted above, Libcloud is a Python library. If you are looking for a similar
-library for a different language, you should look at some of the libraries
-listed bellow:
+As noted above, Libcloud is a Python library.
 
-* Java - [Apache jclouds][10]
-* Ruby - [Apache Deltacloud][13], [Fog][11]
-* Node.js - [pkgcloud][12]
+If you are looking for a similar library for a different language, you should
+have a look at some of the libraries listed bellow:
 
-<a name="important-milestones-and-dates" id="important-milestones-and-dates"><h2 class="anchor">Important Milestones and Dates</h2>
+* [Apache Jclouds][10] - Java
+* [Apache Deltacloud][13] - Ruby, HTTP
+* [Fog][11] - Ruby
+* [pkgcloud][12] - Node.js
+
+If you feel adventures, you should also have a look at [Libcloud REST][20], a
+[Google Summer of Code 2012][21] project which exposes most of the Libcloud
+functionality over HTTP.
+
+<a name="important-milestones-and-dates" id="important-milestones-and-dates"><h2 class="anchor">Important Milestones and Dates</h2></a>
 
 * Summer 2009 - Libcloud development starts at Cloudkick
 * July 23, 2009 - [First open-source version of Libcloud is released by folks
@@ -114,4 +120,6 @@ at Cloudkick][16]
 [16]: http://web.archive.org/web/20120517182502/https://www.cloudkick.com/blog/2009/jul/23/libcloud-announced/
 [17]: http://mail-archives.apache.org/mod_mbox/incubator-libcloud/201105.mbox/%3CBANLkTimouwpSUkw-BVPV_KnpbfFgU6yqeQ@mail.gmail.com%3E
 [18]: http://google-opensource.blogspot.com/2012/08/8th-year-of-google-summer-of-code-draws.html
-[19]: http://mail-archives.apache.org/mod_mbox/libcloud-dev/201306.mbox/%3CCAJMHEmLUxAri0Pkw8-sHHb5tF2tH-qxjU7GC1zwVaNbFT%3DrUMg%40mail.gmail.com%3E
+[19]: http://mail-archives.apache.org/mod_mbox/libcloud-dev/201306.mbox/%3CCAJMHEmLUxAri0Pkw8-sHHb5tF2tH-qxjU7GC1zwVaNbFT%3DrUMg%40mail.gmail.com%3EZ
+[20]: https://github.com/islamgulov/libcloud.rest
+[21]: /gsoc-2012.html
