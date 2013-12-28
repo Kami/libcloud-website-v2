@@ -123,11 +123,14 @@ print(record)
 
       <div class="col-md-4">
         <h3>Latest Blog Posts</h3>
-        {% for post in site.posts limit:3 %}
+        {% for post in site.posts limit:4 %}
           {% unless post.exclude_from_index %}
             <p><a href="{{ post.url }}">{{ post.title }}</a>
           {% endunless %}
         {% endfor %}
+
+        <p>You can also subscribe and stay up to date using our
+        <a href="/blog/atom.xml">RSS / Atom feed.</a></p>
       </div>
 
       <div class="col-md-4">
@@ -155,7 +158,8 @@ print(record)
       <div class="col-md-4">
         <h3>Get in Touch, Follow Us</h3>
 
-        <p>Mailing list: <a href="mailto:users-subscribe@libcloud.apache.org">users@libcloud.apache.org</a></p>
+        <p>Users mailing list: <a href="mailto:users-subscribe@libcloud.apache.org">users@libcloud.apache.org</a></p>
+        <p>Developers mailing list: <a href="mailto:dev-subscribe@libcloud.apache.org">dev@libcloud.apache.org</a></p>
         <p>IRC channel: <a href="https://kiwiirc.com/client/irc.freenode.net/libcloud">#libcloud on Freenode</a></p>
 
         <div style="margin-top: 20px">
