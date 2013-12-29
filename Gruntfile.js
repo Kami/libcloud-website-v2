@@ -16,9 +16,18 @@ module.exports = function(grunt) {
         'source/_assets/css/*.css',
       ]
     },
+    jshint: {
+      options: {
+        jshintrc: '.jshintrc'
+      },
+      all: [
+        'Gruntfile.js',
+        'source/_assets/js/*.js',
+      ]
+    }
   });
 
-  grunt.registerTask('lint', ['csslint']);
+  grunt.registerTask('lint', ['csslint', 'jshint']);
 
   grunt.registerTask('default', ['csslint']);
 };
