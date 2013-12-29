@@ -128,12 +128,20 @@ img.logo {
 .carousel-control {
 }
 
+#carousel-provider-logos {
+    height: 85px;
+}
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: inline;
 }
 
 .carousel-control.left, .carousel-control.right {
     background: none !important;
+}
+
+.carousel-control {
+    color: #333 !important;
 }
 
 /* Content pages */
