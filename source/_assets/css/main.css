@@ -125,11 +125,12 @@ img.logo {
 
 
 /* Carousel */
-.carousel-control {
-}
 
-#carousel-provider-logos {
-    height: 85px;
+/* Only specify height for larger resolutions */
+@media (min-width: 992px) {
+    #carousel-provider-logos {
+        height: 85px;
+    }
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
