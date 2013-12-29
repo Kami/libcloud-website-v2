@@ -16,6 +16,7 @@ module.exports = function(grunt) {
         'source/_assets/css/*.css',
       ]
     },
+
     jshint: {
       options: {
         jshintrc: '.jshintrc'
@@ -29,5 +30,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('lint', ['csslint', 'jshint']);
 
-  grunt.registerTask('default', ['csslint']);
+  grunt.registerTask('default', ['lint']);
 };
