@@ -18,8 +18,5 @@
     "strict": false,
     "trailing": true,
     "smarttabs": true,
-    "maxlen": 80,
-    "globals" : {
-        "chrome": true
-    }
+    "maxlen": 80
 }
