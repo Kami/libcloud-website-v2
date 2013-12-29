@@ -1,1 +1,4 @@
-$('a[rel="tooltip"]').tooltip();
+/* global jQuery: true */
+jQuery(document).ready(function($) {
+  $('a[rel="tooltip"]').tooltip();
+});
