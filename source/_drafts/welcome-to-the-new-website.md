@@ -67,11 +67,12 @@ features a more clear to action.
 
 New website now features a fully-fledged blog.
 
-We will use the blog to post important project news and announcement and keep
-you up to date with what is currently going on.
+We will use the blog to post important project news, keep you up to date with
+what is currently going on and post case studies and stories from projects and
+companies which are using Libcloud.
 
-For all the people who still use RSS readers to stay up to date, we now also
-offer an [ATOM feed][10].
+If you are using an RSS reader to stay up to date, we also offer an
+[ATOM feed][10].
 
 #### Updated Credits Page
 
@@ -80,6 +81,15 @@ contributed code and documentation.
 
 As noted on that page, the list is automatically generated from the CHANGES
 file so it might not be 100% accurate.
+
+#### Search Engine Optimizations
+
+We have made some changes which will make our website a bit more friendly to
+the web crawlers and search engines. We hope this will make it easier for you
+to more quickly find the content you are looking for.
+
+The changes we have made include improvements to the underlying HTML markup,
+addition of the [OpenGraph][13] tags and an addition of a sitemap.
 
 ### Under the Hood
 
@@ -122,3 +132,4 @@ the changes yourself.
 [10]: /blog/atom.xml
 [11]: /community.html#mailing-lists
 [12]: /community.html#website-repository
+[13]: http://ogp.me/
