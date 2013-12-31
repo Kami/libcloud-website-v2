@@ -19,8 +19,7 @@ bundle install
 ## Running Local Development Server
 
 ```bash
-cd source
-jekyll serve --watch --trace
+./scripts/run-dev-server.sh
 ```
 
 ## Generating and Publishing the Website
