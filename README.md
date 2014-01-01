@@ -1,5 +1,8 @@
 # Libcloud Website
 
+**Note: This repository is now deprecated. Source code has been moved to Apache
+SVN repository - https://svn.apache.org/repos/asf/libcloud/site/trunk/**
+
 This repository contains source code for a Libcloud website powered by
 [Jekyll][1].
 
